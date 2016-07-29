@@ -4,11 +4,11 @@ import java.io.*;
 class LinearSearch 
 {
  	public static void main(String args[]){
-    		//do{
+    		
 			while(true){
     				try{
     					int c, n, search, array[];
- 					//String a="";
+ 					
    				 	Scanner in = new Scanner(System.in);
     					System.out.println("Enter number of elements");
     					while (!in.hasNextInt()){        
@@ -47,8 +47,8 @@ class LinearSearch
       					System.out.println(search + " is not present in array.");
   
   				System.out.println("Continue(Y/N)");
-        			// a = in.next();
-				if(in.next().equalsIgnoreCase("n"))/*Prompt the user for continue the 														search process*/
+        			
+				if(in.next().equalsIgnoreCase("n"))/*Prompt the user for continue the search process*/
 					break;
 			}
   			catch (Exception e){
@@ -56,7 +56,7 @@ class LinearSearch
 	
             
 		}
-	}//while(in.next().equalsIgnoreCase("y")||in.next().equalsIgnoreCase("yes"));
+	}
 
 
   }
